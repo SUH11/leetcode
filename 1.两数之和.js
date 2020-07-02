@@ -11,6 +11,7 @@
  * @return {number[]}
  */
 var twoSum1 = function(nums, target) {
+  // 解题思路一样
     let obj = {}
     for (let i = 0; i < nums.length; i++) {
       let num = nums[i]
